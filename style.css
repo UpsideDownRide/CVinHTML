@@ -13,7 +13,7 @@ body {
     padding: 0px;
     font-family: Helvetica, sans-serif;
     color: black;
-    font-size: 3em;
+    font-size: 40px;
     min-width: 100%;
 }
 
@@ -27,6 +27,12 @@ hr {
     border: none;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+footer {
+    color: #ddd;
+    font-size: 80%;
+    padding-bottom: 300px;
 }
 
 .logo {
@@ -55,7 +61,6 @@ hr {
 }
 
 .contact {
-    font-size: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -100,13 +105,17 @@ hr {
     width: 70%;
 }
 
+.right-column > section {
+    margin-bottom: 60px;
+}
+
 .section-header {
-    font-size: 65px;
+    font-size: 135%;
     font-weight: 700;
 }
 
 .section-header::first-letter {
-    font-size: 175%;
+    font-size: 200%;
     text-transform: capitalize;
 }
 
@@ -128,13 +137,13 @@ hr {
 
 .entry-place {
     font-weight: 600;
-    font-size: 120%;
+    font-size: 135%;
 }
 
 .entry-date {
     color: #aaa;
     margin-top: 20px;
-    font-size: 85%;
+    font-size: 90%;
 }
 
 .entry-position {
@@ -147,12 +156,33 @@ hr {
     text-justify: inter-character;
 }
 
-.education {
-    margin-top: 80px;
-}
-
 .education-specialty {
     font-weight: 400;
     font-size: 80%;
     color: #aaa;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-content li {
+    margin-bottom: 10px;
+}
+
+.language-item {
+    display: inline-block;
+    width: 50%;
+}
+
+.languages li {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+#language-cpe {
+    color: #aaa;
+    margin-top: 5px;
+    font-size: 90%;
 }
