@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 2480px;
+    height: 3508px;
+    padding: 150px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    font-size: 3em;
+    min-width: 100%;
+}
+
+header {
+    display: flex;
+}
+
+.logo {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 200px;    
+}
+
+.logo div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-weight: 700;
+    font-size: 90px;
+}
+
+.name {
+    font-weight: 900;
+    font-size: 100px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-mail {
+    margin-bottom: 20px;
+}
+
+.contact i {
+    margin-right: 15px;
+}
