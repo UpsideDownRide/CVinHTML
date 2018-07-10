@@ -13,10 +13,11 @@ body {
     padding: 0px;
     font-family: Helvetica, sans-serif;
     color: black;
-    font-size: 40px;
+    font-size: 35px;
     min-width: 100%;
     min-height: 100%;
     position: relative;
+    line-height: 1.5;
 }
 
 header {
@@ -30,6 +31,7 @@ hr {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
 
 footer {
     color: #eee;
@@ -61,10 +63,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.resume-content {
-    margin-top: 80px;
 }
 
 .contact {
@@ -121,7 +119,7 @@ footer {
 }
 
 .section-header {
-    font-size: 135%;
+    font-size: 140%;
     font-weight: 700;
 }
 
@@ -136,9 +134,24 @@ footer {
     padding-top: 5px;
 }
 
+.work-content .line-break {
+    height: 0px;
+    padding: 0px;
+    color: none;
+}
+
+
 .content-entry {
     display: flex;
     margin-top: 70px;
+}
+
+.extracurricular-content .content-entry:first-child {
+    margin-top: 70px;
+}
+
+.extracurricular-content .content-entry {
+    margin-top: 30px;
 }
 
 .content-entry-left {
@@ -148,7 +161,7 @@ footer {
 
 .entry-place {
     font-weight: 600;
-    font-size: 135%;
+    font-size: 175%;
 }
 
 .entry-date {
@@ -158,14 +171,14 @@ footer {
 }
 
 .entry-position {
-    font-size: 120%;
+    font-size: 135%;
     font-weight: 700;
     display: flex;
     justify-content: space-between;
 }
 
 .entry-content {
-    margin-top: 20px;
+    margin-top: 15px;
     text-justify: inter-character;
 }
 
@@ -174,6 +187,11 @@ footer {
     font-size: 80%;
     color: #aaa;
     display: inline-block;
+}
+
+.goals-content {
+    font-size: 100%;
+    
 }
 
 .skills-content {
@@ -207,3 +225,4 @@ footer {
     margin-top: 5px;
     font-size: 90%;
 }
+
