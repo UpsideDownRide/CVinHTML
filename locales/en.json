@@ -26,13 +26,13 @@
         "deloitte": {
             "dates": "March 2018 -<br>October 2017",
             "position": "R developer",
-            "entry": "Developing an application for international banks allowing for compliance with IFRS9. The application was based on a Shiny reactive library, Bootstrap, jQuery, MSSQL, dockerized Linux. Assessing, implementing and validating models. Code and model documentation. Resolving issues in UAT.<hr class=\"line-break\"/>Own initiatives:<hr class=\"line-break\"/>Written from scratch E2E testing in JS based on Protractor and Selenium. Refactor of database connection code to accommodate Oracle DB and interfacing with in-house DB connector to meet the needs of a new client."
+            "entry": "Developing an application for international banks allowing for compliance with IFRS9. The application based on a Shiny reactive library, Bootstrap, jQuery, MSSQL, dockerized Linux. Assessing, implementing and validating models. Code and model documentation. Resolving issues in UAT.<hr class=\"line-break\"/>Own initiatives:<hr class=\"line-break\"/>Written from scratch E2E testing in JS based on Protractor and Selenium. Refactor of database connection code to accommodate Oracle DB to meet the needs of a new client."
         },
         "waruniversity": {
             "name": "Warsaw<br>University",
             "dates": "September 2016 -<br>May 2016",
             "position": "Research assistant",
-            "entry": "Assistant of professor Krawczyk. Preparation and analysis of data for research in behavioral economics. Searching for and summarizing related papers. Translation of research papers. Conducting experiment sessions with participants. Preparing and submitting grant proposals."
+            "entry": "Assistant of professor Michał Krawczyk. Preparation and analysis of data for research in behavioral economics regarding decision-making under risk. Searching for and summarizing related papers. Translation of research papers. Conducting experiment sessions with participants. Preparing and submitting grant proposals."
         }
     },
     "education": {
@@ -56,7 +56,7 @@
             "name": "Accenture",
             "dates": "July 2017",
             "position": "Summer academy",
-            "entry": "Data-driven BI case study competition about problems of a fictional bank with a goal of finding them and proposing solutions.<hr class=\"line-break\">Finished with team and individual distinctions for analytical capabilities."
+            "entry": "Data-driven BI case study competition about problems of a fictional bank with a goal of finding them and proposing solutions.<br>Finished with team and individual distinctions for analytical capabilities."
         },
         "daftcode": {
             "name": "DaftCode",

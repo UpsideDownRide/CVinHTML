@@ -1,0 +1,69 @@
+{
+    "goals": {
+        "head": "cele",
+        "content": "Rozwijanie umiejętności w programowaniu JS i frontendu. Poszerzenie wiedzy w zakresie algorytmów i struktur danych. W dalszej perspektywie zgłębienie programowania funkcyjnego."
+    },
+    "technologies": {
+        "head": "technologie"
+    },
+    "languages": {
+        "head": "języki",
+        "english": "Angielski",
+        "spanish": "Hiszpański"
+    },
+    "hobbies": {
+        "head": "Hobby",
+        "climbing": "Wspinaczka sportowa i bouldering",
+        "photography": "Fotografia",
+        "photoSub": "Dwuletnie studium",
+        "selfLearning": "Samokształcenie",
+        "selfLearningSub": "Ukończone specjalizacje Data Science i Deep Learning @ Coursera",
+        "cryptocurrencies": "Kryptowaluty"
+    },
+    "legal-footer": "Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacj (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. 2016 r. poz. 922).",
+    "experience": {
+        "head": "doświadczenie",
+        "deloitte": {
+            "dates": "Marzec 2018 -<br>Październik 2017",
+            "position": "R developer",
+            "entry": "Rozwijanie aplikacji dla międzynarodowych banków pozwalającej na przestrzeganie regulacji finansowej IFRS9. Aplikacja bazująca na Shiny, Bootstrap, jQuery, MSSQL oraz zdokeryzowanym Linuxie. Ocena, implementacja i walidacja modeli. Dokumentacja kodu i modeli. Rozwiązywanie problemów na środowiskach UAT.<hr class=\"line-break\"/>Inicjatywy własne:<hr class=\"line-break\"/>Napisanie od podstaw testów E2E w JS oparte o Protractora i Selenium. Refaktoryzacja kodu bazodanowego w celu współpracy aplikacji z bazą Oracle na potrzeby nowego klienta."
+        },
+        "waruniversity": {
+            "name": "Uniwersytet<br>Warszawski",
+            "dates": "Wrzesień 2016 -<br>Maj 2016",
+            "position": "Asystent naukowy",
+            "entry": "Asystent dr. hab. Michała Krawczyka. Przygotowywanie i analiza danych do badań z ekonomii behawioralnej nad podejmowaniem decyzji w warunkach ryzyka. Wyszukiwanie i streszczanie powiązanych badań. Przeprowadzanie sesji eksperymentalnych z uczestnikami. Przygotowywanie wniosków o granty."
+        }
+    },
+    "education": {
+        "head": "wykształcenie",
+        "waruniversity": {
+            "name": "Uniwersytet<br>Warszawski",
+            "dates": "<i>planowane ukończenie</i><br>Wrzesień 2018 -<br>Październik 2014",
+            "position": "Ekonomia <div class=\"education-specialty\">Finance &amp; International Investment</div>",
+            "entry": "Stypendium rektora przyznawane 5% najlepszych studentów. Indywidualny tok studiów przyznawany dla 7% studentów. Program nauki rozszerzony o zajęcia z informatyki i statystyki. Studia w języku angielskim."
+        }
+    },
+    "extra": {
+        "head": "kursy i konferencje",
+        "erum": {
+            "name": "eRum",
+            "dates": "16-14 Maja 2018",
+            "position": "European R Users Conference",
+            "entry": "Uczestnik. Udział w warsztatach o użyciu grafowych baz danych, tworzeniu pakietów R oraz w wykładach."
+        },
+        "accenture": {
+            "name": "Accenture",
+            "dates": "Lipiec 2017",
+            "position": "Akademia letnia",
+            "entry": "Warsztat oraz zespołowe zawody BI fikcyjnego banku w celu zidentyfikowania i zaproponowania rozwiązań na podstawie danych.<br>Ukończone z nagrodą indywidualną i grupową za umiejętności analityczne."
+        },
+        "daftcode": {
+            "name": "DaftCode",
+            "dates": "Kwiecień 2017",
+            "position": "Machine learning dla średnio-zaawansowanych",
+            "entry": "Wykrywanie oszustw kredytowych na podstawie zanonimizowanych danych przy użyciu stosu Pythonowego, xgboosta i scikit learna."
+        }
+    }
+}
+
