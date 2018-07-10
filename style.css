@@ -134,12 +134,11 @@ footer {
     padding-top: 5px;
 }
 
-.work-content .line-break {
+.work .line-break {
     height: 0px;
     padding: 0px;
     color: none;
 }
-
 
 .content-entry {
     display: flex;

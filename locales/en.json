@@ -1,0 +1,68 @@
+{
+    "goals": {
+        "head": "goals",
+        "content": "Further developing front-end and javascript abilities. Improving insight in algorithms and data structures. In the longer term advancing knowledge of the functional programming paradigm."
+    },
+    "technologies": {
+        "head": "technologies"
+    },
+    "languages": {
+        "head": "languages",
+        "english": "English",
+        "spanish": "Spanish"
+    },
+    "hobbies": {
+        "head": "hobbies",
+        "climbing": "Sport climbing and bouldering",
+        "photography": "Photography",
+        "photoSub": "Two year post-secondary school",
+        "selfLearning": "Self-learning",
+        "selfLearningSub": "Data Science and Deep Learning specializations at Coursera",
+        "cryptocurrencies": "Cryptocurrencies"
+    },
+    "legal-footer": "",
+    "experience": {
+        "head": "work experience",
+        "deloitte": {
+            "dates": "March 2018 -<br>October 2017",
+            "position": "R developer",
+            "entry": "Developing an application for international banks allowing for compliance with IFRS9. The application was based on a Shiny reactive library, Bootstrap, jQuery, MSSQL, dockerized Linux. Assessing, implementing and validating models. Code and model documentation. Resolving issues in UAT.<hr class=\"line-break\"/>Own initiatives:<hr class=\"line-break\"/>Written from scratch E2E testing in JS based on Protractor and Selenium. Refactor of database connection code to accommodate Oracle DB and interfacing with in-house DB connector to meet the needs of a new client."
+        },
+        "waruniversity": {
+            "name": "Warsaw<br>University",
+            "dates": "September 2016 -<br>May 2016",
+            "position": "Research assistant",
+            "entry": "Assistant of professor Krawczyk. Preparation and analysis of data for research in behavioral economics. Searching for and summarizing related papers. Translation of research papers. Conducting experiment sessions with participants. Preparing and submitting grant proposals."
+        }
+    },
+    "education": {
+        "head": "education",
+        "waruniversity": {
+            "name": "Warsaw<br>University",
+            "dates": "<i>planned finish</i><br>September 2018 -<br>October 2014",
+            "position": "Economics <div class=\"education-specialty\">Finance &amp; International Investment</div>",
+            "entry": "Recipient of Dean's scholarship awarded to the top 5% of students. Participant of elite individual course of studies offered to the top 7% of students. Extended the standard program by additional classes in computer science and statistics. Studies in English."
+        }
+    },
+    "extra": {
+        "head": "extracurricular",
+        "erum": {
+            "name": "eRum",
+            "dates": "16 May 2018<br>14 May 2018",
+            "position": "European R Users Conference",
+            "entry": "Attendee. Partaken in workshops about graph databases, R package creation and in conference lectures."
+        },
+        "accenture": {
+            "name": "Accenture",
+            "dates": "July 2017",
+            "position": "Summer academy",
+            "entry": "Data-driven BI case study competition about problems of a fictional bank with a goal of finding them and proposing solutions.<hr class=\"line-break\">Finished with team and individual distinctions for analytical capabilities."
+        },
+        "daftcode": {
+            "name": "DaftCode",
+            "dates": "April 2017",
+            "position": "Intermediate machine learning",
+            "entry": "Credit card fraud detection based on anonymized data using Python stack with xgboost and scikit learn."
+        }
+    }
+}

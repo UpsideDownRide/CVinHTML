@@ -26,23 +26,17 @@
     <div class="resume-content">
         <div class="left-column">
             <section class="about">
-                <div class="section-header">
-                    goals
-                </div>
+                <div class="section-header" data-t="goals.head"></div>
                 <hr>
-                <p class="goals-content">
-                    Working on the visual side of development is very rewarding for me. I would like to further develop my front-end and javascript abilities. In the longer term - further my knowledge of the functional programming paradigm.
-                </p>
+                <p class="goals-content" data-t="goals.content"></p>
             </section>
             <section class="skills">
-                <div class="section-header">
-                    technologies
-                </div>
+                <div class="section-header" data-t="technologies.head"></div>
                 <hr>
                 <div class="skills-content">
                     <ul>
                         <li>R</li>
-                        <li class="skill-li-light">Shiny, data.table,<br>tidyverse and more</li>
+                        <li class="skill-li-light">Shiny, data.table,<br>tidyverse...</li>
                         <li>Javascript</li>
                         <li class="skill-li-light">ES6, React</li>
                         <li>SQL</li>
@@ -65,125 +59,104 @@
                 </div>
             </section>
             <section class="languages">
-                    <div class="section-header">
-                        languages
-                    </div>
+                    <div class="section-header" data-t="languages.head"></div>
                     <hr>
                     <ul>
-                        <li><span class="language-item">English</span>C2</li>
+                        <li><span class="language-item" data-t="languages.english"></span>C2</li>
                         <li class="skill-li-light">Cambridge Certificate of Proficiency in English</li>
-                        <li><span class="language-item">Spanish</span>B1</li>
+                        <li><span class="language-item" data-t="languages.spanish"></span>B1</li>
                     </ul>
             </section>
             <section class="hobbies">
-                <div class="section-header">
-                    hobbies
-                </div>
+                <div class="section-header" data-t="hobbies.head"></div>
                 <hr>
                 <ul>
-                    <li>Sport climbing and bouldering</li>
-                    <li>Photography</li>
-                    <li class="skill-li-light">Two year post-secondary course</li>
-                    <li>Self-learning</li>
-                    <li class="skill-li-light">Data Science and Deep Learning specializations at Coursera</li>
-                    <li>Cryptocurrencies</li>
+                    <li data-t="hobbies.climbing"></li>
+                    <li data-t="hobbies.photography"></li>
+                    <li class="skill-li-light" data-t="hobbies.photoSub"></li>
+                    <li data-t="hobbies.selfLearning"></li>
+                    <li class="skill-li-light" data-t="hobbies.selfLearningSub"></li>
+                    <li data-t="hobbies.cryptocurrencies"></li>
                 </ul>
             </section>
             <hr>
-            <footer class="legal-disclaimer">Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacj (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. 2016 r. poz. 922).</footer>
+            <footer class="legal-disclaimer" data-t="legal-footer"></footer>
         </div>
         <div class="right-column">
             <section class="experience">
-                <div class="section-header">
-                    work experience
-                </div>
+                <div class="section-header" data-t="experience.head"></div>
                 <hr>
                 <div class="work-content">
                     <div class="content-entry">
                         <div class="content-entry-left">
                             <div class="entry-place">Deloitte</div>
-                            <div class="entry-date">March 2018 -<br>October 2017</div>
+                            <div class="entry-date" data-t="experience.deloitte.dates"></div>
                         </div>
                         <div class="content-entry-right">
-                            <div class="entry-position">R developer</div>
-                            <div class="entry-content">Developing an application for international banks allowing for compliance with IFRS9. The application was based on a Shiny reactive library that uses Bootstrap and jQuery for front-end. Back-end was dockerized linux with MSSQL. Assessing, implementing and validating models according to clients specification. Code and model documentation for clients. Resolving issues in UAT environments.
-                            <hr class="line-break"/>
-                            Own initiatives:
-                            <hr class="line-break"/>
-                            Written from scratch E2E testing in JS based on Protractor and Selenium.
-                            Refactor of database connection code to accommodate Oracle DB specifics and interfacing with in-house DB solution.
-                            </div>
+                            <div class="entry-position" data-t="experience.deloitte.position"></div>
+                            <div class="entry-content" data-t="experience.deloitte.entry"></div>
                         </div>
                     </div>
                     <div class="content-entry">
                         <div class="content-entry-left">
-                            <div class="entry-place">Warsaw<br>University</div>
-                            <div class="entry-date">September 2016 -<br>May 2016</div>
+                            <div class="entry-place" data-t="experience.waruniversity.name"></div>
+                            <div class="entry-date" data-t="experience.waruniversity.dates"></div>
                         </div>
                         <div class="content-entry-right">
-                            <div class="entry-position">Research assistant</div>
-                            <div class="entry-content">Assistant of professor Krawczyk. Preparation and analysis of data for research in behavioral economics. Conducting experiment sessions with participants. Searching for related studies as well as their translation. Preparation and submitting grant proposals.</div>
+                            <div class="entry-position" data-t="experience.waruniversity.position"></div>
+                            <div class="entry-content" data-t="experience.waruniversity.entry"></div>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="education">
-                <div class="section-header">
-                    education
-                </div>
+                <div class="section-header" data-t="education.head"></div>
                 <hr>
                 <div class="education-content">
                     <div class="content-entry">
                         <div class="content-entry-left">
-                            <div class="entry-place">Warsaw<br>University</div>
-                            <div class="entry-date"><i>planned finish</i><br>September 2018 -<br>October 2014</div>
+                            <div class="entry-place" data-t="education.waruniversity.name"></div>
+                            <div class="entry-date" data-t="education.waruniversity.dates"></div>
                         </div>
                         <div class="content-entry-right">
-                            <div class="entry-position">Economics <div class="education-specialty">Finance &amp; International Investment</div></div>
-                            <div class="entry-content">Recipient of Dean's scholarship awarded to the top 5% of students. Participant of elite individual course of studies offered to the top 7% of students. Extended the standard program by additional classes in computer science and statistics. Studies in English.</div>
+                            <div class="entry-position" data-t="education.waruniversity.position"></div>
+                            <div class="entry-content" data-t="education.waruniversity.entry"></div>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="extracurricular">
-                <div class="section-header">
-                    extracurricular
-                </div>
+                <div class="section-header" data-t="extra.head"></div>
                 <hr>
                 <div class="extracurricular-content">
                     <div class="content-entry">
                         <div class="content-entry-left">
-                            <div class="entry-place">eRum</div>
-                            <div class="entry-date">16 May 2018<br>14 May 2018</div>
+                            <div class="entry-place" data-t="extra.erum.name"></div>
+                            <div class="entry-date" data-t="extra.erum.dates"></div>
                         </div>
                         <div class="content-entry-right">
-                            <div class="entry-position">European R Users Conference</div>
-                            <div class="entry-content">Attendee. Partaken in workshop about graph databases and package creation in R. 
-                            </div>
+                            <div class="entry-position" data-t="extra.erum.position"></div>
+                            <div class="entry-content" data-t="extra.erum.entry"></div>
                         </div>
                     </div>
                     <div class="content-entry">
                         <div class="content-entry-left">
-                            <div class="entry-place">Accenture</div>
-                            <div class="entry-date">July 2017</div>
+                            <div class="entry-place" data-t="extra.accenture.name"></div>
+                            <div class="entry-date" data-t="extra.accenture.dates"></div>
                         </div>
                         <div class="content-entry-right">
-                            <div class="entry-position">Summer academy</div>
-                            <div class="entry-content">Teamwork regarding case study of a fictional bank. Data-driven analysis of bank problems leading to a proposal of solutions.
-                                <br>
-                                Finished with team and individual distinctions.
-                            </div>
+                            <div class="entry-position" data-t="extra.accenture.position"></div>
+                            <div class="entry-content" data-t="extra.accenture.entry"></div>
                         </div>
                     </div>
                     <div class="content-entry">
                         <div class="content-entry-left">
-                            <div class="entry-place">DaftCode</div>
-                            <div class="entry-date">April 2017</div>
+                            <div class="entry-place" data-t="extra.daftcode.name"></div>
+                            <div class="entry-date" data-t="extra.daftcode.dates"></div>
                         </div>
                         <div class="content-entry-right">
-                            <div class="entry-position">Intermediate machine learning</div>
-                            <div class="entry-content">Credit card fraud detection based on anonymized real data using xgboost and scikit learn.
-                            </div>
+                            <div class="entry-position" data-t="extra.daftcode.position"></div>
+                            <div class="entry-content" data-t="extra.daftcode.entry"></div>
                         </div>
                     </div>
                 </div>
